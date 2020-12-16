@@ -73,6 +73,11 @@ img {
   color: #fff;
   background-color: #1c96dd;
 }
+.btn:hover {
+  background-color: #1677af;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
 .search-form {
   display: flex;
   justify-content: center;
