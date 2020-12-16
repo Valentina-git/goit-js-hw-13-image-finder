@@ -4,5 +4,4 @@ export default {
     input: document.querySelector('input'),
     galleryList: document.querySelector('.gallery'),
     btnLoad: document.querySelector('.load'),
-    btnSubmit: document.querySelector('.submit'),
 }

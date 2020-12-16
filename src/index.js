@@ -29,9 +29,10 @@ const loadMoreImages = () => {
     fetchImages(inputValue, page, API_KEY).then(images => {
         addToMarkup(images)
         window.scrollTo({
-            top: document.documentElement.offsetHeight - 2500,
+            top: document.documentElement.offsetHeight + 400,
             behavior: 'smooth'
         });
+        console.dir(document.documentElement.offsetHeight);
     }).catch(err => console.log(err))
 }
 
